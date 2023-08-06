@@ -1,0 +1,32 @@
+/* styles the body of the page */
+body{
+    /*adds colors to the background and text */
+    background-color: rgb(242, 242, 242);
+    color: rgb(255, 223, 44);
+
+    /*centers all items in the body */
+    margin:0 auto;
+    max-width: 700px; 
+       
+}
+
+p{
+    text-align: center;
+}
+div {
+display: flex;
+justify-content: center;
+}
+
+    /* styles the reload button */
+.container {
+    display: flex;
+    justify-content: center;
+    }
+    
+    #userDiv{
+        text-align: center;
+        flex-direction: column;
+        height: 200px;
+        text-indent: -50px; 
+        }
